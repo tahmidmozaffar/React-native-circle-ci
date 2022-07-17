@@ -16,3 +16,7 @@ it('correct addition', () => {
 it('incorrect addition', () => {
   expect(1 + 2).toBe(3)
 });
+
+it('correct substraction', () => {
+  expect(5 - 2).toBe(3)
+});
