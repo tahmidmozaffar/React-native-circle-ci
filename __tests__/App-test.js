@@ -9,6 +9,10 @@ import App from '../App';
 // Note: test renderer must be required after react-native.
 // import renderer from 'react-test-renderer';
 
-it('renders correctly', () => {
+it('correct addition', () => {
   expect(1 + 1).toBe(2)
+});
+
+it('incorrect addition', () => {
+  expect(1 + 1).toBe(3)
 });
